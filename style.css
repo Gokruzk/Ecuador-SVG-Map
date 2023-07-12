@@ -1,18 +1,42 @@
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #7c7c7c;
+  box-sizing: border-box !important;
+  margin: 0;
 }
 
-body {
+header {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 90vh;
+  height: 60px;
+  background-color: brown;
+  color: white;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  margin-top: 5px;
+  background-color: rgb(151, 106, 52);
+  color: white;
+}
+
+body {
+  min-height: 100vh;
+  background-color: rgb(24, 23, 23);
+  overflow: hidden;
 }
 
 .map {
-  width: 70%;
+  margin-top: 20px;
+  max-width: 100%;
   border: double 3px green;
+}
+
+svg {
+  min-width: 100%;
 }
 
 svg path {
