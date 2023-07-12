@@ -1,5 +1,6 @@
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #7c7c7c;
 }
 
 body {
@@ -10,5 +11,18 @@ body {
 }
 
 .map {
+  width: 70%;
   border: double 3px green;
+}
+
+svg path {
+  fill: #80b869;
+  stroke: #fff;
+  stroke-width: 1.5px;
+  transition: 0.3s;
+}
+
+path:hover {
+  cursor: pointer;
+  fill: #8a5252;
 }
